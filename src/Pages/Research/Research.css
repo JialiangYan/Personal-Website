@@ -1,0 +1,24 @@
+.research-item {
+  margin-bottom: 4rem;
+}
+
+.rimg {
+  width: 40vw;
+  transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.rimg:hover {
+  transform: scale(1.06);
+}
+
+.r-title {
+  font-size: 1.4rem;
+  font-weight: 410;
+}
+
+.r-people {
+  font-size: 1.2rem;
+}
+
+.r-title {
+}

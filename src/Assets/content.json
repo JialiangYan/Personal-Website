@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "title": "Research Interests",
+    "content": "My research interests lie in Usable Security and Privacy and Human-Computer Interaction. I am particularly interested in understanding users’ and developers’ privacy perceptions, needs, expectations, and behaviors. I am also passionate about evaluating and designing experiences that make complex systems accessible to users.",
+    "items": []
+  },
+  {
+    "id": 1,
+    "title": "Failure Resume",
+    "content": "failure sucks. but, despite it sucking so much, failure has taught me a lot about myself: how resilient i am, how far i need to go and, sometimes, how i’m exactly where i need to be. and so, welcome to a list of my professional and personal failures, rejections, and disappointments. started at 2021.",
+    "items": [
+      {
+        "year": 2023,
+        "things": [
+          {
+            "id": 1,
+            "content": "Rejected by a lot of companies for internship hunting",
+            "reflection": "Every interview is a way to communicate with senior developers and know where I am"
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "things": [
+          {
+            "id": 1,
+            "content": "Got 'C' in math and cs courses",
+            "reflection": "I tried"
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "things": [
+          {
+            "id": 1,
+            "content": "Failed to be promoted to the ministerial position of the Student Union.",
+            "reflection": ""
+          },
+          {
+            "id": 2,
+            "content": "Rejected by the International Legal Talent Program.",
+            "reflection": ""
+          },
+          {
+            "id": 3,
+            "content": "Rejected by the legal debate team in the second-round interview.",
+            "reflection": ""
+          },
+          {
+            "id": 4,
+            "content": "Rejected by the Wu Yuzhang Honors College in Sichuan University.",
+            "reflection": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Research",
+    "content": "Projects I have worked.",
+    "items": [
+      {
+        "title": "",
+        "people": "Jialiang Yan",
+        "description": ""
+      },
+      {
+        "title": "Cree NLP Project",
+        "people": "Jialiang Yan",
+        "description": "Plains Cree is a low resource language, Indigenous to Canada. This language is at risk of being lost so we have collected a corpus of language materials to enable the creation of language technologies."
+      },
+      {
+        "title": "",
+        "people": "",
+        "description": ""
+      }
+    ]
+  }
+]

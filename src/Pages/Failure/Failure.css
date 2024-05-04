@@ -1,0 +1,48 @@
+.main {
+  margin: 0 10vw;
+  font-weight: 400;
+}
+
+.back {
+  text-decoration: none;
+  font-size: 3rem;
+  color: #89cff0;
+  margin-left: 5vw;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: #89cff0;
+  font-weight: 610;
+  margin-bottom: 1.6rem;
+}
+
+.small-title {
+  font-size: 1.8rem;
+  color: #89cff0;
+  font-weight: 510;
+  margin-top: 1.6rem;
+}
+
+/* Custom accordion */
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-button {
+  font-weight: 400;
+}
+
+.accordion-body {
+  font-size: 0.9rem;
+}
