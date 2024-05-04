@@ -65,7 +65,7 @@ function About() {
               <span className="wave" role="img" aria-labelledby="wave">
                 👋
               </span>
-              <span class="pros">(pronouns: they/he.)</span>{' '}
+              <span className="pros">(pronouns: they/he.)</span>{' '}
             </h1>
 
             <h1 className="content">

@@ -11,7 +11,7 @@ function Research() {
         <div className="title">Research</div>
         <div className="description">{contentData[2].content}</div>
         {contentData[2].items.map((item, i) => (
-          <Row className="research-item">
+          <Row className="research-item" key={i}>
             <Col md={6}>
               <Image src={r1} rounded className="rimg" />
             </Col>
