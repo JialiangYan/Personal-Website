@@ -68,9 +68,9 @@ function App() {
         <div ref={researchRef}>
           <Research />
         </div>
-        <div ref={projectsRef}>
+        {/* <div ref={projectsRef}>
           <Projects />
-        </div>
+        </div> */}
         <Footer />
       </div>
     </div>

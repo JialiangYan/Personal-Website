@@ -101,7 +101,7 @@ function About() {
               </p>
               {/* Buttons */}
               <a
-                href="baidu.com"
+                href="https://drive.google.com/file/d/1ZeQWwy5t5_Yzc-9Me0MIRtuTNeRhE772/view?usp=sharing"
                 className="highlight"
                 target="_blank"
                 rel="noopener noreferrer"
