@@ -9,7 +9,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="6" className="footer-copywright">
-          <h3>Designed and Developed by Jialiang</h3>
+          <h3>Designed and Developed by JIALIANG YAN</h3>
         </Col>
         <Col md="6" className="footer-copywright">
           <h3>Copyright © {year} JIALIANG YAN. All rights reserved.</h3>

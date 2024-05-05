@@ -15,15 +15,68 @@ html {
   cursor: none;
 }
 
-.cursor {
-  background-color: rgba(255, 225, 135, 0.7);
-  height: 2rem;
-  width: 2rem;
+/* Cursor */
+#cursor {
+  background-color: rgba(0, 95, 177, 0.4);
+  height: 1.5rem;
+  width: 1.5rem;
   border-radius: 50%;
   transform-origin: 100% 100%;
   transform: translate(-50%, -50%);
   position: fixed;
   pointer-events: none;
-  z-index: 999;
   transition: width 0.3s, height 0.3s;
+}
+
+.highlight:hover #cursor {
+  visibility: hidden;
+}
+
+/* No cursor in mobile */
+@media (max-width: 767px) {
+  .App {
+    cursor: auto;
+  }
+
+  #cursor {
+    display: none;
+  }
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+
+/* Highlight */
+.highlight {
+  text-decoration: none;
+  font-weight: 610;
+  color: #89cff0;
+  position: relative;
+}
+
+.highlight::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.highlight:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.highlight::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #0077b6;
+  z-index: -1;
+  transition: transform 0.3s ease;
 }

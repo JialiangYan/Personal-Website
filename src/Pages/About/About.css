@@ -46,18 +46,18 @@
   max-height: 340px;
 }
 
+.sentence {
+  font-style: italic;
+}
+
 .heading {
   font-size: 4em !important;
-  /* padding-left: 50px !important; */
-  /* line-height: 1; */
   font-weight: 610;
   color: #89cff0;
-  /* margin-bottom: 10%; */
 }
 
 .content {
   font-size: 1.2em !important;
-  /* padding-left: 50px !important; */
   font-weight: 400 !important;
   line-height: 1.5;
   .small-content {
@@ -66,10 +66,8 @@
 }
 
 .footer-icons {
-  margin-top: 2em !important;
-  margin-bottom: 2em !important;
-  padding: 0 !important;
-  height: 4em;
+  margin-top: 1.5rem;
+  padding: 0;
 }
 
 .social-icons {
@@ -81,44 +79,12 @@
     color: black;
     width: 2em;
     height: 2em;
+    transition: color 0.2s ease-in-out;
   }
-}
 
-/* Highlight */
-.highlight {
-  text-decoration: none;
-  font-weight: 610;
-  color: #89cff0;
-  position: relative;
-}
-
-.highlight::before {
-  transform: scaleX(0);
-  transform-origin: bottom right;
-}
-
-.highlight:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-.highlight::before {
-  content: ' ';
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  inset: 0 0 0 0;
-  background: #0077b6;
-  z-index: -1;
-  transition: transform 0.3s ease;
-}
-
-@media (orientation: landscape) {
-  body {
-    grid-auto-flow: column;
+  .svg:hover {
+    color: #89cff0;
+    transform: scale(1.1);
   }
 }
 

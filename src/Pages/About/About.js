@@ -56,7 +56,17 @@ function About() {
                 </a>
               </li>
             </ul>
-            <p className="sentence">Powered by sunshine and dream pop</p>
+            <p className="sentence">
+              Powered by sunshine and{' '}
+              <a
+                href="https://rateyourmusic.com/genre/dream-pop/"
+                className="highlight"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                dream pop
+              </a>
+            </p>
           </Col>
 
           {/* Content */}
@@ -66,7 +76,7 @@ function About() {
               <span className="wave" role="img" aria-labelledby="wave">
                 👋
               </span>
-              <span className="pros">(pronouns: they/he.)</span>{' '}
+              <span className="pros">(pronouns: they/he)</span>{' '}
             </h1>
 
             <h1 className="content">

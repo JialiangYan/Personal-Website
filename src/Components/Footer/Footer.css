@@ -1,10 +1,10 @@
 .footer {
   margin-top: 10%;
-  padding: 2vh 2vw !important ;
+  padding: 3vh 2vw !important ;
   /* background-color: #f6fcff; */
 }
 .footer-copywright {
-  text-align: center !important;
+  text-align: center;
 }
 
 .footer-body {
@@ -12,20 +12,10 @@
   text-align: center !important;
 }
 
-@media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
-  }
-
-  .footer-body {
-    text-align: center !important;
-  }
-}
-
 .footer h3 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 400;
-  color: black !important;
+  color: rgba(0, 0, 0, 0.8) !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }

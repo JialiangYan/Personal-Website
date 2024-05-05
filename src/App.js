@@ -48,7 +48,7 @@ function App() {
         id={load ? 'no-scroll' : 'scroll'}
         onMouseMove={changePosition}
       >
-        <div className="cursor" ref={cursor}></div>
+        <div id="cursor" ref={cursor}></div>
         <NavBar
           aboutRef={aboutRef}
           projectsRef={projectsRef}
