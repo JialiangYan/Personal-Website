@@ -47,7 +47,7 @@ const MyP5Sketch = ({ width, height }) => {
     return () => {
       // Unmounting logic here if needed
     }
-  }, [])
+  }, [width, height])
 
   return <div ref={canvasRef} className="bg"></div>
 }

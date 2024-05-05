@@ -7,18 +7,7 @@ import { Link } from 'react-router-dom'
 
 function NavBar({ aboutRef, researchRef, projectsRef, scrollComponent }) {
   const [expand, updateExpanded] = useState(false)
-  // const [navColour, updateNavbar] = useState(false)
   const navColour = true
-
-  // function scrollHandler() {
-  //   if (window.scrollY >= 1) {
-  //     updateNavbar(true)
-  //   } else {
-  //     updateNavbar(false)
-  //   }
-  // }
-
-  // window.addEventListener('scroll', scrollHandler)
 
   return (
     <Navbar
@@ -81,7 +70,7 @@ function NavBar({ aboutRef, researchRef, projectsRef, scrollComponent }) {
                   scrollComponent(projectsRef)
                 }}
               >
-                Others
+                About me
               </Nav.Link>
             </Nav.Item> */}
           </Nav>

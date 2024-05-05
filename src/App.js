@@ -2,11 +2,10 @@ import React, { useState, useEffect, useRef } from 'react'
 import Preloader from './Components/Pre/Pre'
 import Footer from './Components/Footer/Footer'
 import NavBar from './Components/Nav/Nav'
-import ScrollToTop from './Components/ScrollToTop'
 
 import About from './Pages/About/About'
-import Projects from './Pages/Projects/Projects'
 import Research from './Pages/Research/Research'
+import Art from './Pages/Art/Art'
 
 // import './style.css'
 import './App.css'
@@ -25,20 +24,6 @@ function App() {
   const scrollComponent = (elem) => {
     elem.current.scrollIntoView({ behavior: 'smooth' })
   }
-
-  // Cursor
-  // const cur = document.querySelector('.cursor')
-  // const researchItem = document.querySelector('.research-item')
-
-  // researchItem.addEventListener('mouseenter', () => {
-  //   cur.style.width = '4rem'
-  //   cur.style.height = '4rem'
-  // })
-
-  // researchItem.addEventListener('mouseleave', () => {
-  //   cur.style.width = '2rem'
-  //   cur.style.height = '2rem'
-  // })
 
   const cursor = useRef(null)
   const changePosition = (e) => {
@@ -70,7 +55,6 @@ function App() {
           researchRef={researchRef}
           scrollComponent={scrollComponent}
         />
-        <ScrollToTop />
         {/* Content */}
         <div ref={aboutRef}>
           <About />
@@ -79,7 +63,7 @@ function App() {
           <Research />
         </div>
         {/* <div ref={projectsRef}>
-          <Projects />
+          <Art />
         </div> */}
         <Footer />
       </div>

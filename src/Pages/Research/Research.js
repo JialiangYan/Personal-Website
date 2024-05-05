@@ -12,8 +12,8 @@ function Research() {
 
   return (
     <>
-      <Container>
-        <div className="title">Research</div>
+      <Container className="research">
+        <div className="title">Research 📝</div>
         <div className="description">{contentData[2].content}</div>
         {contentData[2].items.map((item, i) => (
           <Row className="research-item" key={i}>
@@ -21,6 +21,16 @@ function Research() {
               <Image src={rlist[i]} rounded className="rimg" />
             </Col>
             <Col md={7}>
+              <div className="r-link">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={item.link.pdf}
+                  className={item.link.pdf == null ? 'none' : ''}
+                >
+                  [pdf]
+                </a>
+              </div>
               <div className="r-title">{item.title}</div>
               <div className="r-description">{item.description}</div>
               <Stack direction="horizontal" gap={2}>
@@ -30,7 +40,12 @@ function Research() {
                   </Badge>
                 ))}
               </Stack>
-              <div className="r-ao">Advisor: {item.ao}</div>
+              <div className="r-ao">
+                Advisor:{' '}
+                <a target="_blank" rel="noreferrer" href={item.aolink}>
+                  {item.ao}
+                </a>
+              </div>
               <div className="r-time">{item.time}</div>
             </Col>
           </Row>

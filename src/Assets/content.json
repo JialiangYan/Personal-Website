@@ -2,21 +2,21 @@
   {
     "id": 0,
     "title": "Research Interests",
-    "content": "My research interests lie in Usable Security and Privacy and Human-Computer Interaction. I am particularly interested in understanding users’ and developers’ privacy perceptions, needs, expectations, and behaviors. I am also passionate about evaluating and designing experiences that make complex systems accessible to users.",
+    "content": "My research interests lie in Usable Security and Privacy and Human-Computer Interaction. I am particularly interested in understanding users' and developers' privacy perceptions, needs, expectations, and behaviors. I am also passionate about evaluating and designing experiences that make complex systems accessible to users.",
     "items": []
   },
   {
     "id": 1,
     "title": "Failure Resume",
-    "content": "failure sucks. but, despite it sucking so much, failure has taught me a lot about myself: how resilient i am, how far i need to go and, sometimes, how i’m exactly where i need to be. and so, welcome to a list of my professional and personal failures, rejections, and disappointments. started at 2021.",
+    "content": "Perfectionism and excessive self-esteem are the greatest enemies on the path of personal growth. Even though failure sucks, it has taught me a lot about myself: how resilient i am, how far i need to go and, sometimes, how i'm exactly where i need to be. So, welcome to a list of my professional and personal failures, rejections, and disappointments starting from 2021.",
     "items": [
       {
         "year": 2023,
         "things": [
           {
             "id": 1,
-            "content": "Rejected by a lot of companies for internship hunting",
-            "reflection": "Every interview is a way to communicate with senior developers and know where I am"
+            "content": "Rejected by a lot of companies during my first internship hunting",
+            "reflection": "1) Interviewing is a great way to communicate with senior engineers and receive learning feedback. 2) No one is ever 'completely ready' to start job hunting; the process itself is a great learning opportunity. 3) As long as I keep 'knocking', there will always be someone who will say 'Yes' to me. Fortunately, I only need one 'Yes.' The key is to not give up halfway through; I need to give God a chance to give me an offer :)"
           }
         ]
       },
@@ -26,7 +26,7 @@
           {
             "id": 1,
             "content": "Got 'C' in math and cs courses",
-            "reflection": "I tried"
+            "reflection": "During the Covid-19 pandemic, frequent lockdowns and bad news made me extremely anxious, to the point where I couldn't focus on studying. I often felt a huge sense of powerlessness while checking news, worried that I would be the next person to be quarantined. Now, I want to remind myself: 1) Don't be anxious about things that haven't happened yet; 2) Allow yourself to grieve, but don't spend all your time in sorrow; normal life and work should continue."
           }
         ]
       },
@@ -36,22 +36,22 @@
           {
             "id": 1,
             "content": "Failed to be promoted to the ministerial position of the Student Union.",
-            "reflection": ""
+            "reflection": "There are many factors I cannot control. It happens."
           },
           {
             "id": 2,
             "content": "Rejected by the International Legal Talent Program.",
-            "reflection": ""
+            "reflection": "This is a great opportunity to know where I am. I could progress and become better (and yes, I think now I am a much better person!), but at that time, my personal ability indeed could not meet the standards of the program."
           },
           {
             "id": 3,
             "content": "Rejected by the legal debate team in the second-round interview.",
-            "reflection": ""
+            "reflection": "This is my first lesson in college: college isn't a place for me to relax and vacation, but a place to explore my passions and strive for them. The second round of the interview was conducted through debating on topics. When I saw my scrappy one-page notes compared to the neat handwritten materials prepared by the opponent, I knew I was going to lose."
           },
           {
             "id": 4,
             "content": "Rejected by the Wu Yuzhang Honors College in Sichuan University.",
-            "reflection": ""
+            "reflection": "In high school, following teachers' requirements, I treated myself as a study machine, dedicating all my time to improving standardized scores, without any extracurricular activities or reflection on my own life. It's no surprise I was rejected. As a first-generation college student educated in a place with limited educational resources, it wasn't until I entered college that I realized not everyone would endure the same struggles as me. My personal efforts seemed insignificant compared to others' privileged backgrounds. It took me a long time to accept this and learn to be grateful for what I have, rather than blaming my family or environment for not being good enough."
           }
         ]
       }
@@ -65,45 +65,61 @@
       {
         "id": 0,
         "title": "When Privacy Notices Matters: Investigating the Impact of Timing on the Salience of Smartphone App Privacy Notices",
-        "description": "",
+        "description": "Too often, privacy notices are ignored. However, certain information included in them could help users make more informed decisions. In this study, we investigate how timing influences the salience of smartphone app privacy notices through an online study. The results could provide updated insights into the optimal timing of privacy notices and serve as evidence for more usable privacy notice design.",
         "keywords": [
           "Usable Privacy and Security",
           "Privacy Nutrition Label",
           "Mobile App"
         ],
+        "link": {
+          "pdf": null
+        },
         "ao": "Dr. Bailey Kacsmar",
+        "aolink": "https://bkacsmar.github.io//",
         "time": "Jan 2023 - present"
       },
       {
         "id": 1,
-        "title": "Plains Cree Typing Tool Evaluation",
-        "description": "Plains Cree is a low resource language, Indigenous to Canada. This language is at risk of being lost so we have collected a corpus of language materials to enable the creation of language technologies.",
-        "keywords": ["NLP", "Human-Computer Interaction"],
+        "title": "Plains Cree Predictive Text",
+        "description": "Plains Cree is a low resource language, indigenous to Canada. In this study, we test the effects of different feedback types of a Plains Cree predictive text system.",
+        "keywords": ["Human-Computer Interaction", "NLP"],
+        "link": {
+          "pdf": null
+        },
         "ao": "Dr. Carrie Demmans Epp",
+        "aolink": "https://www.cdemmansepp.com/",
         "time": "Sep 2023 - Present"
       },
       {
         "id": 2,
         "title": "Comparative Study of Concurrent Feedback Types for Flight Simulator Training",
-        "description": "",
+        "description": "In this study, we investigate best practices for feedback in the context of intelligent tutoring systems.",
         "keywords": [
           "Flight Simulation",
           "Learning Technology",
           "Human-Computer Interaction"
         ],
+        "link": {
+          "pdf": null
+        },
         "ao": "Dr. Carrie Demmans Epp",
+        "aolink": "https://www.cdemmansepp.com/",
         "time": "Sep 2023 - Dec 2023"
       },
       {
         "id": 3,
         "title": "Research on the Supervision of Off-Campus Curriculum Subject-Tutoring Institutions under “Double Reduction” Policy: An Analysis from the Perspective of Law",
-        "description": "This project systematically analyzes the social practical needs of discipline after-school training institutions and the governance ideas and means of local administrative supervision departments in promoting the implementation of policies. On the basis of reflecting on the current practical practice of improper administrative supervision, this paper examines the shortcomings of the legalization of administrative supervision from the perspective of law.",
+        "description": "This study systematically analyzes the social practical needs of discipline after-school training institutions and the governance ideas and means of local administrative supervision departments in promoting the implementation of policies. On the basis of reflecting on the current practical practice of improper administrative supervision, this project examines the shortcomings of the legalization of administrative supervision from the perspective of law.",
         "keywords": [
           "Education Policy",
           "Off-Campus Tutoring Institutions",
           "Operation Supervision"
         ],
+        "link": {
+          "pdf": ""
+        },
         "ao": "Dr. Jimin Xu",
+        "aolink": "https://lawenglish.scu.edu.cn/info/1005/1056.htm",
         "time": "Sep 2021 - Sep 2022"
       }
     ]

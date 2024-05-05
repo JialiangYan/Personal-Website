@@ -14,8 +14,17 @@ function Failure() {
       <div className="main">
         <div className="title">Failure Resume 🤷</div>
         <p className="description">{contentData[1].content}</p>
-        <p>learn more about failure resumes here.</p>
-        <Accordion defaultActiveKey={['0']} alwaysOpen>
+        <p>
+          This idea of failure resume was inspired by{' '}
+          <a
+            href="https://joicetang.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Joice Tang
+          </a>
+        </p>
+        <Accordion defaultActiveKey={['0', '1', '2', '3', '4', '5']} alwaysOpen>
           <div className="small-title">{contentData[1].items[0].year}</div>
           <Accordion.Item eventKey="0">
             <Accordion.Header>
