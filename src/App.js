@@ -26,19 +26,30 @@ function App() {
     elem.current.scrollIntoView({ behavior: 'smooth' })
   }
 
+  // Cursor
+  // const cur = document.querySelector('.cursor')
+  // const researchItem = document.querySelector('.research-item')
+
+  // researchItem.addEventListener('mouseenter', () => {
+  //   cur.style.width = '4rem'
+  //   cur.style.height = '4rem'
+  // })
+
+  // researchItem.addEventListener('mouseleave', () => {
+  //   cur.style.width = '2rem'
+  //   cur.style.height = '2rem'
+  // })
+
   const cursor = useRef(null)
-  const cursorf = useRef(null)
   const changePosition = (e) => {
     cursor.current.style.top = `${e.clientY}px`
     cursor.current.style.left = `${e.clientX}px`
-    cursorf.current.style.top = `${e.clientY - 30}px`
-    cursorf.current.style.left = `${e.clientX - 30}px`
   }
 
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false)
-    }, 1200)
+    }, 1000)
 
     return () => clearTimeout(timer)
   }, [])
@@ -52,8 +63,7 @@ function App() {
         id={load ? 'no-scroll' : 'scroll'}
         onMouseMove={changePosition}
       >
-        <div className="cursor-m" ref={cursor}></div>
-        <div className="cursor-f" ref={cursorf}></div>
+        <div className="cursor" ref={cursor}></div>
         <NavBar
           aboutRef={aboutRef}
           projectsRef={projectsRef}

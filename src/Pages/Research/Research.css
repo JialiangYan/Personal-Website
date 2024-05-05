@@ -1,24 +1,21 @@
 .research-item {
   margin-bottom: 4rem;
+  transition: transform 0.3s ease; /* Smooth transition effect */
+  border: 1px solid #ccc; /* Grey border */
+  border-radius: 1rem; /* Rounded corners */
+  backdrop-filter: blur(5rem);
+  padding: 1rem;
+}
+
+.research-item:hover {
+  transform: scale(1.02);
 }
 
 .rimg {
-  width: 40vw;
-  transition: transform 0.3s ease; /* Smooth transition effect */
-}
-
-.rimg:hover {
-  transform: scale(1.06);
+  width: 30vw;
 }
 
 .r-title {
   font-size: 1.4rem;
   font-weight: 410;
-}
-
-.r-people {
-  font-size: 1.2rem;
-}
-
-.r-title {
 }

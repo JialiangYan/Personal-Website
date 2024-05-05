@@ -1,5 +1,5 @@
 .footer {
-  padding: 2vh 4vw !important ;
+  padding: 2vh 2vw !important ;
   background-color: #ebf9ff;
 }
 .footer-copywright {
@@ -23,6 +23,7 @@
 
 .footer h3 {
   font-size: 1em;
+  font-weight: 400;
   color: black !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;

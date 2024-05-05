@@ -11,6 +11,9 @@ import {
   Navigate,
 } from 'react-router-dom'
 
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
+
 ReactDOM.render(
   <React.StrictMode>
     <Router>
@@ -20,6 +23,8 @@ ReactDOM.render(
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
+    <Analytics />
+    <SpeedInsights />
   </React.StrictMode>,
   document.getElementById('root')
 )

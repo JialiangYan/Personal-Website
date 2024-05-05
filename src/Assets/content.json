@@ -60,22 +60,51 @@
   {
     "id": 2,
     "title": "Research",
-    "content": "Projects I have worked.",
+    "content": "Research projects I have worked on (in reverse-chronological order)",
     "items": [
       {
+        "id": 0,
         "title": "When Privacy Notices Matters: Investigating the Impact of Timing on the Salience of Smartphone App Privacy Notices",
-        "people": "Jialiang Yan",
-        "description": ""
+        "description": "",
+        "keywords": [
+          "Usable Privacy and Security",
+          "Privacy Nutrition Label",
+          "Mobile App"
+        ],
+        "ao": "Dr. Bailey Kacsmar",
+        "time": "Jan 2023 - present"
       },
       {
-        "title": "Cree NLP Project",
-        "people": "Jialiang Yan",
-        "description": "Plains Cree is a low resource language, Indigenous to Canada. This language is at risk of being lost so we have collected a corpus of language materials to enable the creation of language technologies."
+        "id": 1,
+        "title": "Plains Cree Typing Tool Evaluation",
+        "description": "Plains Cree is a low resource language, Indigenous to Canada. This language is at risk of being lost so we have collected a corpus of language materials to enable the creation of language technologies.",
+        "keywords": ["NLP", "Human-Computer Interaction"],
+        "ao": "Dr. Carrie Demmans Epp",
+        "time": "Sep 2023 - Present"
       },
       {
-        "title": "",
-        "people": "",
-        "description": ""
+        "id": 2,
+        "title": "Comparative Study of Concurrent Feedback Types for Flight Simulator Training",
+        "description": "",
+        "keywords": [
+          "Flight Simulation",
+          "Learning Technology",
+          "Human-Computer Interaction"
+        ],
+        "ao": "Dr. Carrie Demmans Epp",
+        "time": "Sep 2023 - Dec 2023"
+      },
+      {
+        "id": 3,
+        "title": "Research on the Supervision of Off-Campus Curriculum Subject-Tutoring Institutions under “Double Reduction” Policy: An Analysis from the Perspective of Law",
+        "description": "This project systematically analyzes the social practical needs of discipline after-school training institutions and the governance ideas and means of local administrative supervision departments in promoting the implementation of policies. On the basis of reflecting on the current practical practice of improper administrative supervision, this paper examines the shortcomings of the legalization of administrative supervision from the perspective of law.",
+        "keywords": [
+          "Education Policy",
+          "Off-Campus Tutoring Institutions",
+          "Operation Supervision"
+        ],
+        "ao": "Dr. Jimin Xu",
+        "time": "Sep 2021 - Sep 2022"
       }
     ]
   }
