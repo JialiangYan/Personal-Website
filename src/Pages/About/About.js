@@ -7,6 +7,7 @@ import { FaXTwitter } from 'react-icons/fa6'
 import { MdEmail } from 'react-icons/md'
 import { FaLinkedinIn } from 'react-icons/fa'
 import contentData from '../../Assets/content.json'
+import CV from '../../Assets/Pdf/CV.pdf'
 import './About.css'
 
 function About() {
@@ -101,7 +102,7 @@ function About() {
               </p>
               {/* Buttons */}
               <a
-                href="https://drive.google.com/file/d/1ZeQWwy5t5_Yzc-9Me0MIRtuTNeRhE772/view?usp=sharing"
+                href={CV}
                 className="highlight"
                 target="_blank"
                 rel="noopener noreferrer"

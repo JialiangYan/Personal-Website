@@ -16,9 +16,8 @@
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
+    padding: 1rem 1rem !important;
     font-size: 1.4rem !important;
-    /* background-color: #181a27 !important; */
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
   }
@@ -47,4 +46,27 @@
 .navbar-nav .nav-item {
   position: relative;
   margin-left: 20px;
+}
+
+/* Nav button */
+.navbar-toggler {
+  position: relative;
+  background-color: transparent;
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-toggler span {
+  display: block;
+  background-color: #89cff0;
+  height: 4px;
+  width: 27px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transform: rotate(0deg);
+  left: 0;
+  /* opacity: 1; */
 }

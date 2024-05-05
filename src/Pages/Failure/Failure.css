@@ -26,8 +26,7 @@
 
   .accordion-button:not(.collapsed) {
     color: black;
-    background-color: white;
-    font-size: 1.2rem;
+    background-color: #89cff0;
   }
 
   .accordion-button:focus {
@@ -42,9 +41,9 @@
     font-weight: 400;
   }
 
-  /* .accordion-body {
-    font-size: 1.2rem;
-  } */
+  .accordion-body {
+    font-size: 1rem;
+  }
 }
 
 .back {

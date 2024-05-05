@@ -5,10 +5,12 @@ import r1 from '../../Assets/Projects/r1.jpg'
 import r2 from '../../Assets/Projects/r2.jpg'
 import r3 from '../../Assets/Projects/r3.jpg'
 import r4 from '../../Assets/Projects/r4.jpg'
+import rp4 from '../../Assets/Pdf/rp4.pdf'
 import './Research.css'
 
 function Research() {
   const rlist = [r1, r2, r3, r4]
+  const rplist = [null, null, null, rp4]
 
   return (
     <>
@@ -25,8 +27,8 @@ function Research() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href={item.link.pdf}
-                  className={item.link.pdf == null ? 'none' : ''}
+                  href={rplist[i]}
+                  className={rplist[i] == null ? 'none' : ''}
                 >
                   [pdf]
                 </a>
