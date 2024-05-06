@@ -12,7 +12,7 @@ function Failure() {
         {'<'}
       </Link>
       <div className="main">
-        <div className="title">Failure Resume 🤷</div>
+        <div className="f-title">Failure Resume 🤷</div>
         <p className="description">{contentData[1].content}</p>
         <p>
           My idea of failure resume was inspired by{' '}
@@ -20,12 +20,13 @@ function Failure() {
             href="https://joicetang.com/"
             target="_blank"
             rel="noopener noreferrer"
+            className="f-a"
           >
             Joice Tang
           </a>
         </p>
         <Accordion defaultActiveKey={['0', '1', '2', '3', '4', '5']} alwaysOpen>
-          <div className="small-title">{contentData[1].items[0].year}</div>
+          <div className="f-small-title">{contentData[1].items[0].year}</div>
           <Accordion.Item eventKey="0">
             <Accordion.Header>
               {contentData[1].items[0].things[0].content}
@@ -35,7 +36,7 @@ function Failure() {
             </Accordion.Body>
           </Accordion.Item>
 
-          <div className="small-title">{contentData[1].items[1].year}</div>
+          <div className="f-small-title">{contentData[1].items[1].year}</div>
           <Accordion.Item eventKey="1">
             <Accordion.Header>
               {contentData[1].items[1].things[0].content}
@@ -45,7 +46,7 @@ function Failure() {
             </Accordion.Body>
           </Accordion.Item>
 
-          <div className="small-title">{contentData[1].items[2].year}</div>
+          <div className="f-small-title">{contentData[1].items[2].year}</div>
           {contentData[1].items[2].things.map((item, index) => (
             <Accordion.Item key={index} eventKey={String(index + 2)}>
               <Accordion.Header>{item.content}</Accordion.Header>

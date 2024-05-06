@@ -1,49 +1,49 @@
 .main {
   margin: 0 10vw;
   font-size: 1.2rem;
+}
 
-  .title {
-    font-size: 3.5rem;
-    color: #89cff0;
-    font-weight: 610;
-    margin-bottom: 1.6rem;
-  }
+.f-title {
+  font-size: 3.5rem;
+  color: #89cff0;
+  font-weight: 610;
+  margin-bottom: 1.6rem;
+}
 
-  a {
-    text-decoration: none;
-    color: #89cff0;
-    font-weight: 700;
-  }
+.f-a {
+  text-decoration: none;
+  color: #89cff0;
+  font-weight: 700;
+}
 
-  .small-title {
-    font-size: 1.8rem;
-    color: #89cff0;
-    font-weight: 510;
-    margin-top: 1.6rem;
-  }
+.f-small-title {
+  font-size: 1.8rem;
+  color: #89cff0;
+  font-weight: 510;
+  margin-top: 1.6rem;
+}
 
-  /* Custom accordion */
+/* Custom accordion */
 
-  .accordion-button:not(.collapsed) {
-    color: black;
-    background-color: #89cff0;
-  }
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: #89cff0 !important;
+}
 
-  .accordion-button:focus {
-    box-shadow: none;
-  }
+.accordion-button:focus {
+  box-shadow: none !important;
+}
 
-  .accordion-item {
-    border: none;
-  }
+.accordion-item {
+  border: none !important;
+}
 
-  .accordion-button {
-    font-weight: 400;
-  }
+.accordion-button {
+  font-weight: 400 !important;
+}
 
-  .accordion-body {
-    font-size: 1rem;
-  }
+.accordion-body {
+  font-size: 1rem !important;
 }
 
 .back {

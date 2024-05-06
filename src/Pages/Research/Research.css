@@ -1,70 +1,68 @@
-.research {
-  .title {
-    font-size: 3.5rem;
-    color: #89cff0;
-    font-weight: 610;
-  }
+.r-title {
+  font-size: 3.5rem;
+  color: #89cff0;
+  font-weight: 610;
+}
 
-  .description {
-    margin-bottom: 1rem;
-  }
+.r-description {
+  margin-bottom: 1rem;
+}
 
-  a {
-    text-decoration: none;
-    color: #212529;
-  }
+.r-a {
+  text-decoration: none;
+  color: #212529;
+}
 
-  .research-item {
-    margin: 2rem 0;
-    transition: transform 0.3s ease; /* Smooth transition effect */
-    border: 1.2px solid #ccc; /* Grey border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 1rem; /* Rounded corners */
-    backdrop-filter: blur(1rem);
-    padding: 1rem;
-  }
+.research-item {
+  margin: 2rem 0;
+  transition: transform 0.3s ease; /* Smooth transition effect */
+  border: 1.2px solid #ccc; /* Grey border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem; /* Rounded corners */
+  backdrop-filter: blur(1rem);
+  padding: 1rem;
+}
 
-  .research-item:hover {
-    transform: scale(1.02);
-  }
+.research-item:hover {
+  transform: scale(1.02);
+}
 
-  .col-md-5 {
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-  }
+.r-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .rimg {
-    width: 95%;
-  }
+.rimg {
+  width: 95%;
+}
 
-  .col-md-7 {
-    position: relative;
-  }
+.r-right {
+  position: relative;
+}
 
-  .r-link {
-    position: absolute;
-    top: 0;
-    right: 0;
-    .none {
-      display: none;
-    }
+.r-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  .none {
+    display: none;
   }
+}
 
-  .r-title {
-    font-size: 1.4rem;
-    font-weight: 410;
-    margin-top: 2rem;
-  }
+.r-small-title {
+  font-size: 1.4rem;
+  font-weight: 410;
+  margin-top: 2rem;
+}
 
-  .r-description,
-  .r-ao,
-  .hstack,
-  .r-time {
-    margin-top: 1rem;
-  }
+.r-description,
+.r-ao,
+.hstack,
+.r-time {
+  margin-top: 1rem;
+}
 
-  .hstack {
-    flex-wrap: wrap;
-  }
+.hstack {
+  flex-wrap: wrap;
 }
