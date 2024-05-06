@@ -1,4 +1,5 @@
 import React from 'react'
+// import './Research.css'
 import { Row, Col, Container, Image, Stack, Badge } from 'react-bootstrap'
 import contentData from '../../Assets/content.json'
 import r1 from '../../Assets/Projects/r1.jpg'
@@ -6,7 +7,6 @@ import r2 from '../../Assets/Projects/r2.jpg'
 import r3 from '../../Assets/Projects/r3.jpg'
 import r4 from '../../Assets/Projects/r4.jpg'
 import rp4 from '../../Assets/Pdf/rp4.pdf'
-import './Research.css'
 
 function Research() {
   const rlist = [r1, r2, r3, r4]
