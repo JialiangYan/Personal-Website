@@ -103,7 +103,7 @@ function About() {
                 >
                   Dr. Carrie Demmans Epp
                 </a>
-                . I used to study law at Sichuan University.
+                . I studied law at Sichuan University.
               </p>
               <p>{contentData[0].content}</p>
               <p>
