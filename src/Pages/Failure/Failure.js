@@ -15,7 +15,7 @@ function Failure() {
         <div className="title">Failure Resume 🤷</div>
         <p className="description">{contentData[1].content}</p>
         <p>
-          This idea of failure resume was inspired by{' '}
+          My idea of failure resume was inspired by{' '}
           <a
             href="https://joicetang.com/"
             target="_blank"
