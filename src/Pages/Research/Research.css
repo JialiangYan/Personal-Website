@@ -1,70 +1,70 @@
 .research {
   .title {
-    font-size: 3.5rem;
-    color: #89cff0;
-    font-weight: 610;
+    font-size: 3.5rem !important;
+    color: #89cff0 !important;
+    font-weight: 610 !important;
   }
 
   .description {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem !important;
   }
 
   a {
-    text-decoration: none;
-    color: #212529;
+    text-decoration: none !important;
+    color: #212529 !important;
   }
 
   .research-item {
-    margin: 2rem 0;
-    transition: transform 0.3s ease; /* Smooth transition effect */
-    border: 1.2px solid #ccc; /* Grey border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 1rem; /* Rounded corners */
-    backdrop-filter: blur(1rem);
-    padding: 1rem;
+    margin: 2rem 0 !important;
+    transition: transform 0.3s ease !important;
+    border: 1.2px solid #ccc !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 1rem !important;
+    backdrop-filter: blur(1rem) !important;
+    padding: 1rem !important;
   }
 
   .research-item:hover {
-    transform: scale(1.02);
+    transform: scale(1.02) !important;
   }
 
   .col-md-5 {
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
 
   .rimg {
-    width: 95%;
+    width: 95% !important;
   }
 
   .col-md-7 {
-    position: relative;
+    position: relative !important;
   }
 
   .r-link {
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
     .none {
-      display: none;
+      display: none !important;
     }
   }
 
   .r-title {
-    font-size: 1.4rem;
-    font-weight: 410;
-    margin-top: 2rem;
+    font-size: 1.4rem !important;
+    font-weight: 410 !important;
+    margin-top: 2rem !important;
   }
 
   .r-description,
   .r-ao,
   .hstack,
   .r-time {
-    margin-top: 1rem;
+    margin-top: 1rem !important;
   }
 
   .hstack {
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
   }
 }
