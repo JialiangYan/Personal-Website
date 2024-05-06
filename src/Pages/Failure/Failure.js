@@ -1,7 +1,7 @@
 import React from 'react'
-// import './Failure.css'
 import Footer from '../../Components/Footer/Footer'
 import { Link } from 'react-router-dom'
+import './Failure.css'
 import Accordion from 'react-bootstrap/Accordion'
 import contentData from '../../Assets/content.json'
 

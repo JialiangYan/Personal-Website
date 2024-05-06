@@ -16,10 +16,10 @@
 
   .research-item {
     margin: 2rem 0;
-    transition: transform 0.3s ease;
-    border: 1.2px solid #ccc;
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    border: 1.2px solid #ccc; /* Grey border */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 1rem;
+    border-radius: 1rem; /* Rounded corners */
     backdrop-filter: blur(1rem);
     padding: 1rem;
   }
@@ -30,8 +30,8 @@
 
   .col-md-5 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
   }
 
   .rimg {

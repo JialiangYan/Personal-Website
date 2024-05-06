@@ -7,7 +7,7 @@ import About from './Pages/About/About'
 import Research from './Pages/Research/Research'
 import Art from './Pages/Art/Art'
 
-import './style.css'
+// import './style.css'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import MyP5Sketch from './P5/MyP5Sketch'
