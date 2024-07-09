@@ -83,9 +83,14 @@ function About() {
               {/* I'M
                */}
               <p>
-                I am currently an upcoming fourth-year undergraduate student
-                studying Computer Science at the University of Alberta, luckily
-                advised by{' '}
+                I'm an undergraduate student at the University of Alberta,
+                pursuing a BSc with honors degree in Computer Science,
+                graduating in 2025. Before transferring to the University of
+                Alberta, I studied law at Sichuan University.
+              </p>
+              <p>
+                My research interests lie in Usable Security and Privacy and
+                Human-Computer Interaction. I'm luckily advised by{' '}
                 <a
                   href="https://bkacsmar.github.io//"
                   className="highlight"
@@ -103,11 +108,7 @@ function About() {
                 >
                   Dr. Carrie Demmans Epp
                 </a>
-                . I studied law at Sichuan University.
-              </p>
-              <p>{contentData[0].content}</p>
-              <p>
-                You can find anything else you might need to know about me
+                . You can find anything else you might need to know about me
                 below.
               </p>
               {/* Buttons */}
