@@ -7,9 +7,11 @@ import r2 from '../../Assets/Projects/r2.jpg'
 import r3 from '../../Assets/Projects/r3.jpg'
 import r4 from '../../Assets/Projects/r4.jpg'
 import rp4 from '../../Assets/Pdf/rp4.pdf'
+import ps1 from '../../Assets/Pdf/Poster.pdf'
 
 function Research() {
   const rlist = [r1, r2, r3, r4]
+  const poster = [ps1, null, null, null]
   const rplist = [null, null, null, rp4]
 
   return (
@@ -24,6 +26,14 @@ function Research() {
             </Col>
             <Col md={7} className="r-right">
               <div className="r-link">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={poster[i]}
+                  className={`${poster[i] == null ? 'none' : ''} r-a`}
+                >
+                  [poster in PETs 2024]
+                </a>
                 <a
                   target="_blank"
                   rel="noreferrer"
