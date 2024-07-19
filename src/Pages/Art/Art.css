@@ -1,10 +1,12 @@
 .a-container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .a-img {
-  width: 30vw;
+  margin: 7px;
+  text-align: center;
+  flex: 1 1 188px; /* Flex grow, shrink, and basis */
 }
 
 img {

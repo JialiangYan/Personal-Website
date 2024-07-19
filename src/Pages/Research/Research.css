@@ -14,7 +14,7 @@
 }
 
 .research-item {
-  margin: 2rem 0;
+  margin: 2rem 0.5rem !important;
   transition: transform 0.3s ease; /* Smooth transition effect */
   border: 1.2px solid #ccc; /* Grey border */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
