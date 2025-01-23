@@ -57,7 +57,7 @@ function NavBar({ aboutRef, researchRef, projectsRef, scrollComponent }) {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -69,7 +69,7 @@ function NavBar({ aboutRef, researchRef, projectsRef, scrollComponent }) {
               >
                 Misc
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
